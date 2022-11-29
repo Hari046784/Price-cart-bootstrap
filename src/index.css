@@ -1,0 +1,68 @@
+.page {
+  height:700px;
+  text-align:left;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.page .card {
+  border-radius: 1rem;
+}
+  
+.page hr {
+  margin: 1.5rem;
+}
+
+.page .card-title {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.fa-ul .fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+
+.page .card-price {
+  font-size: 3rem;
+}
+
+.page .card-price .period {
+  font-size: 1rem;
+}
+
+.page ul li {
+  margin-bottom: 1rem;
+}
+
+.page .text-muted {
+  opacity: 0.7;
+}
+
+.page .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+@media (min-width: 992px) {
+  .page .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .page .card:hover .btn {
+    opacity: 1;
+  }
+}
